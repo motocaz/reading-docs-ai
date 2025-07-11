@@ -1,0 +1,30 @@
+@import "tailwindcss";
+@config "../tailwind.config.ts";
+
+:root {
+  --background: 203 23% 11%;
+  --foreground: 213 31% 91%;
+  --card: 203 23% 11%;
+  --card-foreground: 213 31% 91%;
+  --popover: 203 23% 11%;
+  --popover-foreground: 213 31% 91%;
+  --primary: 210 100% 56%;
+  --primary-foreground: 0 0% 100%;
+  --secondary: 203 23% 15%;
+  --secondary-foreground: 213 31% 91%;
+  --muted: 203 23% 15%;
+  --muted-foreground: 215.4 16.3% 56.9%;
+  --accent: 203 23% 15%;
+  --accent-foreground: 213 31% 91%;
+  --destructive: 0 62.8% 30.6%;
+  --destructive-foreground: 210 40% 98%;
+  --border: 203 23% 15%;
+  --input: 203 23% 15%;
+  --ring: 210 100% 56%;
+  --radius: 0.75rem;
+}
+@layer components {
+  * {
+    border-color: hsl(var(--border));
+  }
+}
